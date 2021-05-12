@@ -10,30 +10,37 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="132dp"
+        android:layout_marginTop="150dp"
         android:text="便签"
         android:textSize="48sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="128dp"
-        android:layout_height="127dp"
+        android:layout_width="147dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="72dp"
         android:text="新用户注册"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="259dp" />
+        app:backgroundTint="#00BCD4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="128dp"
-        android:layout_height="127dp"
+        android:layout_width="151dp"
+        android:layout_height="149dp"
+        android:layout_marginTop="28dp"
         android:text="登陆"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="429dp" />
+        app:backgroundTint="#00BCD4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
